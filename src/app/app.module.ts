@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TypciComponent } from './typci/typci.component';
+import { TypekDetailComponent } from './typek-detail/typek-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TypciComponent
+    TypciComponent,
+    TypekDetailComponent
   ],
   imports: [
     BrowserModule,
