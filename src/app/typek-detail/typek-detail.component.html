@@ -1,3 +1,13 @@
 <p>
   typek-detail works!
 </p>
+
+<div *ngIf="typek">
+
+<h2>{{ typek.name | uppercase }} Details</h2>
+<div><span>id: </span>{{typek.id}}</div>
+<div>
+  <label>name:
+    <input [(ngModel)]="typek.name" placeholder="name">
+  </label>
+</div>

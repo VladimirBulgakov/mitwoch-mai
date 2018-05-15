@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Typek } from "../typek";
 
 @Component({
   selector: 'app-typek-detail',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./typek-detail.component.css']
 })
 export class TypekDetailComponent implements OnInit {
+  @Input() typek: Typek;
 
   constructor() { }
 

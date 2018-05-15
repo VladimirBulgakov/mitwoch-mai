@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Typek } from "../typek";
-import { TYPCI } from "../mock-typci";
+import { TypekService } from '../typek.service';
 
 @Component({
   selector: 'app-typci',
@@ -14,7 +14,7 @@ export class TypciComponent implements OnInit {
   ngOnInit() {
   }
 
-  typci = TYPCI;
+  Typci: Typek[];
 
   selectedTypek: Typek; // zopakovat " : " co to znamena,, typovani?
 
